@@ -39,6 +39,7 @@ server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
+console.log('escuchando en el puerto '+port);
 /**
  * Normalize a port into a number, string, or false.
  */
